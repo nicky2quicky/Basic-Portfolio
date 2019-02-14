@@ -8,13 +8,15 @@
 .box {
     position: relative;
     width: 150px;
-    height: 125px;
     float: left;
 }
 
 .name {
     top: 25.5%;
-    left: 7.6%;
+    left: 7%;
+    padding-top: 75px;
+    border-bottom: 25px;
+    height: 50px;
     font-size: xx-large;
     color: white;
     margin-bottom: -32px;
@@ -25,6 +27,7 @@
 .About {
     top: 75%;
     left: 42.5%;
+    padding-bottom: 25px;
     color: blue;
     float: left;
 }
