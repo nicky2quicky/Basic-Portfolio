@@ -1,6 +1,6 @@
 .box-set {
     position: relative;
-    height: 150px;
+    height: 125px;
     background:gray;
     text-align: center;
 }
@@ -8,17 +8,17 @@
 .box {
     position: relative;
     width: 150px;
-    height: 100px;
+    height: 125px;
     float: left;
 }
 
 .name {
-    top: 10%;
-    left: 8%;
+    top: 25.5%;
+    left: 7.6%;
     font-size: xx-large;
     color: white;
-    float: left;
     margin-bottom: -32px;
+    margin-top: -32px;
     background:#4aaaa5;
 }
 
