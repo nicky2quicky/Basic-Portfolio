@@ -13,29 +13,31 @@
 }
 
 .name {
-    margin-left: 165.68px;
-    font-size:150%;
-    margin-bottom:-24px;
-    color: blue;
+    top: 10%;
+    left: 8%;
+    font-size: xx-large;
+    color: white;
     float: left;
+    margin-bottom: -32px;
     background:#4aaaa5;
 }
 
 .About {
-    font-size:10 px;
-    margin-left: 550px;
-    height: 20px;
+    top: 75%;
+    left: 42.5%;
     color: blue;
     float: left;
 }
 
 .Portfolio {
-    font-size:30 px;
+    top: 75%;
+    left: 40%;
     float: left;
 }
 
 .Contact {
-    font-size:30 px;
+    top: 75%;
+    left: 38%;
     color: blue;
     float: left;
 }
