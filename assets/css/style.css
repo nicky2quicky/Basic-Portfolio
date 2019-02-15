@@ -1,56 +1,62 @@
-.box-set {
-    position: relative;
-    height: 125px;
-    background:gray;
+#top{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+}
+.name {
+    position: absolute;
+    top: 2%;
+    left: 8.15%;
+    height: 40px;
+    width: 150px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    margin-top: -10px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#links {
+    position: absolute;
+    float: left;
+    width: 500px;
+    top: 5%;
+    right: 10.5%;
+    background-color: red;
     text-align: center;
 }
 
-.box {
-    position: relative;
-    width: 150px;
+#portfolio {
+    position: absolute;
     float: left;
+    width: 100px;
+    background-color: yellow;
 }
 
-.name {
-    top: 25.5%;
-    left: 7%;
-    padding-top: 75px;
-    border-bottom: 25px;
-    height: 50px;
-    font-size: xx-large;
-    color: white;
-    margin-bottom: -32px;
-    margin-top: -32px;
-    background:#4aaaa5;
-}
-
-.About {
-    top: 75%;
-    left: 42.5%;
-    padding-bottom: 25px;
-    color: blue;
+#about{
+    position: absolute;
+    right: 50%;
     float: left;
+    width: 50px;
+    background-color: blue;
 }
 
-.Portfolio {
-    top: 75%;
-    left: 40%;
+#about{
+    position: absolute;
+    left: 75%;
     float: left;
+    width: 50px;
+    background-color: purple;
 }
-
-.Contact {
-    top: 75%;
-    left: 38%;
-    color: blue;
-    float: left;
-}
-
 #main {
+    float: left;
+    background:white;
+    border-color:red;
+    border-style:solid; 
     margin-left: 10%;
     margin-right: 10%;
-    padding: 1%;
-    background:#ffffff;
-    border-color:#dddddd;
 }
 
 hr {
@@ -61,6 +67,7 @@ p {
     font-size: 20px; 
     color: #777777; 
     font-family:Arial, Helvetica, sans-serif; 
+    float: left;
 }
 
 
